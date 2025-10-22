@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body style="background-color:aqua; text-align:center;">
+
+<h2 style="color:black; font-weight:bold;">Student Registration Form</h2>
+
+<form action="window.html" method="post" style="background-color:pink; width:70%; margin:auto; padding:10px; text-align:left;">
+
+<table>
+
+<tr>
+<td style="width:35%;"><label>Roll Number:</label></td>
+<td ><input type="text" style="width:45%;"></td>
+</tr>
+
+<tr>
+<td><label>Student Name:</label></td>
+<td ">
+<input type="text" placeholder="first name" style="width:45%;">
+<input type="text" placeholder="Last name" style="width:45%;">
+</td>
+</tr>
+
+<tr>
+<td><label>Date of Birth:</label></td>
+<td><input type="date" style="width:35%;"></td>
+</tr>
+
+<tr>
+<td><label>Password:</label></td>
+<td><input type="password" style="width:45%;"></td>
+</tr>
+
+<tr>
+<td><label>Confirm Password:</label></td>
+<td><input type="password" style="width:45%;"></td>
+</tr>
+
+<tr>
+<td><label>Email:</label></td>
+<td><input type="email" placeholder="enter your emailid" style="width:45%;"></td>
+</tr>
+
+<tr>
+<td><label>Phone Number:</label></td>
+<td>
+<input type="text" value="+91" style="width:15%;" readonly>
+<input type="tel" maxlength="10" style="width:46%;">
+</td>
+</tr>
+
+<tr>
+<td><label>Department:</label></td>
+<td >
+<input type="checkbox">CSE
+<input type="checkbox">ECE
+<input type="checkbox">EEE
+</td>
+</tr>
+
+<tr>
+<td><label>Gender:</label></td>
+<td >
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">Other
+</td>
+</tr>
+
+<tr>
+<td><label>Course:</label></td>
+<td>
+<select style="width:49%;">
+<option>----Select Current Course----</option>
+<option>B.Tech</option>
+<option>M.Tech</option>
+<option>MBA</option>
+<option>B.Sc</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td><label>Upload Photo:</label></td>
+<td><input type="file" style="width:95%;"></td>
+</tr>
+
+<tr>
+<td><label>City:</label></td>
+<td><input type="text" style="width:45%;"></td>
+</tr>
+
+<tr>
+<td><label>Address:</label></td>
+<td><textarea rows="4" style="width:95%;">Enter Address here...</textarea></td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Submit" style="margin:5px;">
+<input type="reset" value="Reset" style="margin:5px;">
+</td>
+</tr>
+
+</table>
+
+</form>
+</body>
+</html>
