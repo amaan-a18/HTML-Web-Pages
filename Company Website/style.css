@@ -1,0 +1,94 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+h2 {
+    text-align:center
+}
+
+/* Top section */
+.top-section {
+  background: linear-gradient(45deg, #0078d7, #00b4d8);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo img {
+  height: 60px;
+  position: fixed;
+  top: 5px;
+  left: 20px;
+}
+
+.menu a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Middle content */
+.content {
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.content h2 {
+  color: #0078d7;
+}
+
+/* Bottom section */
+.bottom-section {
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
+
+.login-form {
+  background: #e3f2fd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-form input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #005f99;
+}
+
+
+.news-list li {
+  position: relative;
+  list-style-type: square;
+  margin: 10px 0;
+}
