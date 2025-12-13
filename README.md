@@ -1,5 +1,5 @@
 # HTML‐Web‐Pages  
-A collection of static HTML & CSS projects showcasing web page designs for various tasks and applications.
+A collection of static HTML & CSS projects showcasing web page designs for various tasks and applications!
 
 ## 🗂 Projects Included  
 The repository contains the following folders, each representing a separate web page project:
