@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Your Cart</title>
+<link rel="stylesheet" href="se.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+<a href="res.html">Home</a>
+<a href="items.html">Items</a>
+<a href="about.html">About</a>
+<a href="cart.html">Cart</a>
+</nav>
+
+<section class="cart">
+<h2>Your Cart</h2>
+<ul id="cart-items"></ul>
+<p id="total"></p>
+<button class="clear-btn" onclick="clearCart()">Clear Cart</button>
+</section>
+
+<script>
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+let cartList = document.getElementById("cart-items");
+let total = 0;
+
+cart.forEach((c,index)=>{
+let li = document.createElement("li");
+li.innerHTML = c.item + " - ₹" + c.price;
+cartList.appendChild(li);
+total += c.price;
+});
+
+document.getElementById("total").innerText = "Total: ₹" + total;
+
+function clearCart(){
+localStorage.removeItem("cart");
+location.reload();
+}
+</script>
+
+</body>
+</html>
